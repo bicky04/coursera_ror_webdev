@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  color: black;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  margin-top: -5px;
+  margin-left:0;
+}
+
+.menulist {
+  color: black;
+
+}
+
+#collapsable-nav ul{
+  background-color: white;
+
+    }
+#collapsable-nav ul li{
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+/*.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}*/
+
+#title {
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+}
+#menutitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.menu-info {
+  background-color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 750px) {
+  .menu-info {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  #collapsable-nav {
+  background-color: white;
+}
+ 
+}
+
+
+
+}
